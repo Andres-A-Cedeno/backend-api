@@ -1,7 +1,8 @@
 import mongoose from "mongoose";
 import("dotenv").config;
 
-const uri = "mongodb://localhost:27017/retrofitDB";
+const uri =
+  "mongodb+srv://aacedenob:MHUaPDwWAQqglZM7@backend.grmho.mongodb.net/?retryWrites=true&w=majority&appName=BACKEND";
 //console.log(uri);
 
 export const connectDB = async () => {
